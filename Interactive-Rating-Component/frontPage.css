@@ -19,20 +19,20 @@
 .mainText{
     position: absolute;
     bottom: 33%;
-    text-align-last: center;
+    /* text-align-last: center; */
     color: white;
     height: 44%;
    
 }
-/* .mainText h1{
-    background-color: #1c1b1d;
-} */
+.mainText h1{
+    text-align: center;
+}
 .mainText p{
     /* background-color: #1c1b1d; */
-    text-align: -webkit-center;
+    padding-left: 22px;
 }
 .picBack{
-    background-color: wheat;
+    background-color: #1c1b1d;
     width: 42px;
     height: 36px;
     position: absolute;
@@ -46,6 +46,7 @@
     display: grid;
     place-items: center;
     grid-template-columns: 60px 60px 60px 60px 56px;
+    left: 27px;
 }
 
 .submitButton{
@@ -55,11 +56,13 @@
     place-self: center;
     height: 6vh;
     border-radius: 21px;
-    background-color: #fc7614;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 .submitButton:hover{
     cursor: pointer;
     background-color: white;
+    color:  hsl(25, 97%, 53%);
 }
 .numberTag{
     color: #8f8f8f;
