@@ -5,15 +5,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./frontPage.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   
   <title>Frontend Mentor | Interactive rating component</title>
   <style>
     .attribution {
       font-size: 11px;
-      text-align: center;
+    text-align: center;
+    bottom: -169px;
+    position: relative;
+    margin: auto;
+    color: white;
     }
 
     .attribution a {
@@ -21,47 +26,41 @@
     }
   </style>
 </head>
-
-<body>
-  <div>
-    <!-- <link href="./desktop122.css" rel="stylesheet" /> -->
-    <div>
-      <div class="desktop122-desktop122">
-        <div class="desktop122-main-container212">
-         
-          <span class="desktop122-text">How did we do?</span>
-          <span class="desktop122-text1" style="color: #8f8f8f;">
-            <span>
-              Please let us know how we did with your support request. All
-              feedback is appreciated
-            </span>
-            <br />
-            <span>to help us improve our offering!</span>
-          </span>
-     
-
-          <div class="backGround" >
-            <h1 class="desktop122-svg1 imgCurser"  id="1">1</h1>
-            <h1 class="desktop122-svg2 imgCurser"  id="2">2</h1>
-            <h1 class="desktop122-svg3 imgCurser"  id="3">3</h1>
-            <h1 class="desktop122-svg4 imgCurser"  id="4">4</h1>
-            <h1 class="desktop122-svg5 imgCurser"  id="5">5</h1>
-          </div>
-       
-<button onclick="test()">click me</button>
-         
-          <button type="submit" class="submitButton">Submit</button>
-      
+<body style="background-color: hsl(216, 12%, 8%);">
+  
+    <div class="main">
+        <span class="picBack">
+        <img src="./images/icon-star.svg" class="thankYou"> </img>
+        </span> 
+        <div class="mainText">
+            <h1>How did we do?</h1>
+            <p>
+                Please let us know how we did with your support request. All
+                feedback is appreciated to help us<br> improve our offering!
+            </p>
+             
         </div>
-      </div>
+        <div class="center">
+            <div class="backGround" >
+                <h1 class=" imgCurser"  id="1">1</h1>
+                <h1 class=" imgCurser"  id="2">2</h1>
+                <h1 class=" imgCurser"  id="3">3</h1>
+                <h1 class=" imgCurser"  id="4">4</h1>
+                <h1 class=" imgCurser"  id="5">5</h1>
+              </div>
+        </div>
+        <button type="submit" class="submitButton">Submit</button>
     </div>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Grant Royseth</a>.
-  </div>
-  <script type="text/javascript" src="controll.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+    
+    <!-- <button class="btn" onclick="test()">click me</button> -->
 
-</html>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Grant Royseth</a>.
+    </div>
+    <script type="text/javascript" src="controll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+  </body>
+  
+  </html>
