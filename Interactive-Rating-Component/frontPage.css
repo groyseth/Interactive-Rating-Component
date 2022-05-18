@@ -24,9 +24,9 @@
     height: 44%;
    
 }
-.mainText h1{
-    /* background-color: #1c1b1d; */
-}
+/* .mainText h1{
+    background-color: #1c1b1d;
+} */
 .mainText p{
     /* background-color: #1c1b1d; */
     text-align: -webkit-center;
@@ -42,14 +42,17 @@
 }
 .backGround{
     position: absolute;
-    bottom: 0px;
+    bottom: 150px;
     display: grid;
-    grid-template-rows: max-content;
-}.submitButton{
+    place-items: center;
+    grid-template-columns: 60px 60px 60px 60px 56px;
+}
+
+.submitButton{
     position: absolute;
-    bottom: 8%;
-    right: 72px;
+    bottom: 12%;
     width: 69%;
+    place-self: center;
     height: 6vh;
     border-radius: 21px;
     background-color: #fc7614;
