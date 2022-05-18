@@ -17,3 +17,11 @@ function submitFunction(){
   console.log("click");
   location.replace('./endPage.html')
 }
+
+
+
+$('.imgCurser').on('click', function(){
+  $('.imgCurser').removeClass('active_button');
+  $(this).addClass('active_button');
+});
+

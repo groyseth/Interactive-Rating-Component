@@ -1,23 +1,26 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+}
 .main{
     border: 2px black solid;
     width: 26%;
     border-radius: 54px;
     height: 511px;
-    position: absolute;
-    left: 34%;
-    top: 17%;
-    background-image: linear-gradient(180deg, rgba(74, 73, 80, 1) 8%, rgba(46, 45, 49, 0.3799999952316284) 100%);
+    /* position: absolute; */
+    margin: auto;
+    bottom: -102px;
+    position: relative;
+    background-color: hsl(213, 19%, 18%);
     display: grid;
 }
 .thankYou{
    
-    top: 25px;
-    left: 32px;
-    position: absolute;
+    top: 3px;
+    position: relative;
     background-color: #1c1b1d;
 }
 .mainText{
-    position: absolute;
+    /* position: absolute; */
     bottom: 33%;
     /* text-align-last: center; */
     color: white;
@@ -25,32 +28,44 @@
    
 }
 .mainText h1{
-    text-align: center;
+    /* text-align: center; */
+    font-weight: 700;
+    padding-left: 36px;
+    font-size: 30px;
 }
 .mainText p{
     /* background-color: #1c1b1d; */
-    padding-left: 22px;
+    padding-left: 36px;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
 }
 .picBack{
     background-color: #1c1b1d;
     width: 42px;
     height: 36px;
-    position: absolute;
-    left: 19px;
-    top: 14px;
+    left: 28px;
+    position: relative;
+    top: 18px;
     border-radius: 30px;
+    text-align: -webkit-center;
 }
 .backGround{
-    position: absolute;
+    /* position: absolute; */
     bottom: 150px;
     display: grid;
-    place-items: center;
+    /* place-items: center; */
     grid-template-columns: 60px 60px 60px 60px 56px;
     left: 27px;
+    justify-content: center;
 }
-
+.backGround h1{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+}
 .submitButton{
-    position: absolute;
+    /* position: absolute; */
     bottom: 12%;
     width: 69%;
     place-self: center;
@@ -71,15 +86,46 @@
 
 .imgCurser:hover{
     cursor: pointer;
-    background-color: yellow;
+    background-color: hsl(25, 97%, 53%);
     color: white;
 }
 
 .imgCurser{
-    background-color: rgb(79, 78, 78);
+    background-color: rgb(28 27 29);
     width: 48px;
     height: 41px;
     border-radius: 61px;
-    text-align-last: center;
-    color: #8f8f8f;
+    /* text-align-last: center; */
+    color: hsl(217, 12%, 63%);
+    
+}
+
+.active_button{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+  }
+@media(min-width:300px){
+    .main{
+        width: 95%;
+    }
+}
+@media(min-width:400px){
+    .main{
+        width: 73%;
+    }
+}
+@media(min-width:700px){
+    .main{
+        width: 50%;
+    }
+}
+@media (min-width:1024px) {
+    .main{
+        width: 33%;
+    }
+}
+@media (min-width:1400px) {
+    .main{
+        width: 27%;
+    }
 }
