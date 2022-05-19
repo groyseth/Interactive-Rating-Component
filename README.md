@@ -20,7 +20,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### The challenge
 
-User sould beable to click a number 1 to 5 for a review. On submit, user sould be shown a thank you page with what number was selected
+User sould be able to click a number 1 to 5 for a review. On submit, user sould be shown a thank you page with what number was selected
 
 ### Screenshot
 
